@@ -22,8 +22,8 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  groceries.collect.flatten
-  do |type, grocery_item_array|
+  groceries.collect.flatten do |type, grocery_item_array|
+    binding.pry
     grocery_item_array
   end
 
