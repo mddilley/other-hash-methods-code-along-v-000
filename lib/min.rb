@@ -1,4 +1,5 @@
 require 'pry'
+require 'values.rb'
 
 #This is the groceries hash we'll be passing in to the get_the_min method
 # groceries = {
