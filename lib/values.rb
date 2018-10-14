@@ -24,7 +24,7 @@ def get_the_values(groceries)
   #code your solution here!
   groceries.each do |type, grocery_item_array|
     grocery_item_array.collect.flatten do |item|
-      grocery_list
+      item
     end
   end
   grocery_list
