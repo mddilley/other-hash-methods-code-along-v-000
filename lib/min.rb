@@ -11,5 +11,5 @@ require_relative "../lib/values.rb"
 
 def get_the_min(groceries)
   #code your solution here!
-  groceries.get_the_values.min
+  get_the_values(groceries).min
 end
